@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "cStandard": "c11",
+            "compileCommands": "${workspaceFolder}/compile_commands.json",
+            "compilerPath": "/usr/bin/gcc",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

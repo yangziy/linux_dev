@@ -1,0 +1,1 @@
+mkinitramfs -o ramdisk.img
