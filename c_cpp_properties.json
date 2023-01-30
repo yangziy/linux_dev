@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}/**",
+                "${workspaceRoot}/include",
+                "${workspaceRoot}/include/generated",
+                "${workspaceRoot}/arch/x86/include",
+                "${workspaceRoot}/arch/x86/include/asm",
+                "${workspaceRoot}/arch/x86/include/generated"
+            ],
+
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__",
+                "KBUILD_MODNAME=\"linux_dev\""
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceRoot}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "compilerPath": "/usr/bin/gcc",
+            "compilerArgs": [
+                "-include",
+                "${workspaceRoot}/include/generated/autoconf.h"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "gnu99"
+        }
+    ],
+    "version": 4
+}
