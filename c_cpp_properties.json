@@ -8,7 +8,8 @@
                 "${workspaceRoot}/include/generated",
                 "${workspaceRoot}/arch/x86/include",
                 "${workspaceRoot}/arch/x86/include/asm",
-                "${workspaceRoot}/arch/x86/include/generated"
+                "${workspaceRoot}/arch/x86/include/generated",
+                "${workspaceRoot}/arch/x86/include/generated/uapi"
             ],
 
             "defines": [
